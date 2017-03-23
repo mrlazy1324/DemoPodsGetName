@@ -15,6 +15,7 @@
 		4442EB921E83A87500BA15F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4442EB901E83A87500BA15F1 /* LaunchScreen.storyboard */; };
 		4442EB9D1E83A87500BA15F1 /* DemoPodsGetNameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4442EB9C1E83A87500BA15F1 /* DemoPodsGetNameTests.m */; };
 		4442EBA81E83A87500BA15F1 /* DemoPodsGetNameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4442EBA71E83A87500BA15F1 /* DemoPodsGetNameUITests.m */; };
+		4442EBB71E83A8B400BA15F1 /* GetNameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4442EBB61E83A8B400BA15F1 /* GetNameViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		4442EBA31E83A87500BA15F1 /* DemoPodsGetNameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoPodsGetNameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4442EBA71E83A87500BA15F1 /* DemoPodsGetNameUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoPodsGetNameUITests.m; sourceTree = "<group>"; };
 		4442EBA91E83A87500BA15F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4442EBB51E83A8B400BA15F1 /* GetNameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetNameViewController.h; sourceTree = "<group>"; };
+		4442EBB61E83A8B400BA15F1 /* GetNameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetNameViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				4442EB861E83A87500BA15F1 /* AppDelegate.m */,
 				4442EB881E83A87500BA15F1 /* ViewController.h */,
 				4442EB891E83A87500BA15F1 /* ViewController.m */,
+				4442EBB51E83A8B400BA15F1 /* GetNameViewController.h */,
+				4442EBB61E83A8B400BA15F1 /* GetNameViewController.m */,
 				4442EB8B1E83A87500BA15F1 /* Main.storyboard */,
 				4442EB8E1E83A87500BA15F1 /* Assets.xcassets */,
 				4442EB901E83A87500BA15F1 /* LaunchScreen.storyboard */,
@@ -207,6 +212,7 @@
 				TargetAttributes = {
 					4442EB7E1E83A87500BA15F1 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = A4LML86JRN;
 						ProvisioningStyle = Automatic;
 					};
 					4442EB971E83A87500BA15F1 = {
@@ -275,6 +281,7 @@
 			files = (
 				4442EB8A1E83A87500BA15F1 /* ViewController.m in Sources */,
 				4442EB871E83A87500BA15F1 /* AppDelegate.m in Sources */,
+				4442EBB71E83A8B400BA15F1 /* GetNameViewController.m in Sources */,
 				4442EB841E83A87500BA15F1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,7 +431,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A4LML86JRN;
 				INFOPLIST_FILE = DemoPodsGetName/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pardypanda.DemoPodsGetName;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -435,7 +444,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A4LML86JRN;
 				INFOPLIST_FILE = DemoPodsGetName/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pardypanda.DemoPodsGetName;
 				PRODUCT_NAME = "$(TARGET_NAME)";

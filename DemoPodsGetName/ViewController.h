@@ -7,8 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GetNameViewController.h"
 
 @interface ViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UILabel *lblName;
 
 
 @end
